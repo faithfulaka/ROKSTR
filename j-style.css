@@ -1,0 +1,149 @@
+/*Heading Styles*/
+.container{
+            background-color: whitesmoke;
+}
+.brand{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px;
+    justify-content: center; 
+}
+.brand{
+    height: 45px;
+    border-bottom: 1px solid transparent;
+}
+.brand a {
+      transition: border-bottom 0.5s;
+      text-decoration: none;
+      color: black;
+      transition: color 0.5s;
+}
+.brand :hover{
+          border-bottom: 1px solid black;
+}
+.brand :hover{
+          color: silver;        
+}
+
+.nav-wrapper{
+        display: flex;
+        justify-content: center;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        padding: 20px;
+}
+.center{
+    display: flex;           
+}
+.center{
+    justify-content: center;
+}
+.nav-wrapper > .center > div{
+                         margin-left: 12px;
+                         font-size: medium;
+                         text-transform: uppercase;
+}
+.nav-link-wrapper{
+              height: 20px;
+              border-bottom: solid transparent;
+              transition: border-bottom 0.5s;
+}
+.nav-link-wrapper a { 
+                 text-decoration: none;
+                 color: black;
+                 transition: color 0.5s;
+                 justify-content: center;
+}          
+.nav-link-wrapper :hover{
+                          border-bottom: 1px solid black;
+}
+.nav-link-wrapper :hover{
+                     color: silver;        
+}
+.nav-wrapper1{
+               justify-content: right;
+}
+.hdbckgrnd{
+            background-color: lightslategray;  
+}
+/* ---End Of Heading Styles--- */
+
+
+/* Dropdown Button */
+.dropdown{
+position: relative; 
+display: inline-block;        
+}
+.dropdown-content{
+       display: none;
+       position: absolute;
+       background-color: white;
+       min-width: 160px;
+       box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+       z-index: 1;
+}
+.dropdown-content a {
+         color: lightslategray;
+         padding: 12px 16px;
+         text-decoration: none;
+         display: block;
+         transition: color 0.5s;
+}
+.dropdown-content a:hover { color: white;
+                            background-color: lightslategrey;
+                          }
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown-content a:hover { border-bottom: hidden;}
+
+* {box-sizing: border-box;}
+/* ---End Of Dropdown Button--- */
+
+
+/* Style the input container */
+.su{ 
+     text-transform: capitalize;
+     display: flex;
+     justify-content: center; 
+}
+.input-container {
+                   display: flex;
+                   width: 100%;
+                   margin-bottom: 15px;
+}
+
+/* Style the form icons */
+.icon {
+        padding: 10px;
+        background-color: lightslategray;
+        color: white;
+        min-width: 50px;
+        text-align: center;
+}
+
+/* Style the input fields */
+.input-field {
+               width: 100%;
+               padding: 10px;
+               outline: none;
+}
+
+.input-field:focus {
+                     border: 2px solid lightslategray;
+}
+
+/* Set a style for the submit button */
+.btn {
+       background-color: lightslategray;
+       color: white;
+       padding: 15px 20px;
+       border: none;
+       cursor: pointer;
+       width: 100%;
+       opacity: 0.9;
+}
+
+.btn:hover {
+             opacity: 1;
+}
