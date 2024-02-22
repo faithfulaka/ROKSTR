@@ -101,7 +101,16 @@ display: inline-block;
 /* ---End Of Dropdown Button--- */
 
 
+
 /* Style the input container */
+form{
+    font-family: system-ui, 'Segoe UI',  'Open Sans', 'Helvetica Neue', sans-serif;
+    text-transform: capitalize;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 5%;
+    background-color: whitesmoke;
+}
 .su{ 
      text-transform: capitalize;
      display: flex;

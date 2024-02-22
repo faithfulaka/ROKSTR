@@ -1,0 +1,337 @@
+/*Navigation Styles*/
+.hdbckgrnd{
+    background-color: lightslategrey;
+  }
+  .brand{
+           text-align: center;
+           text-transform: uppercase;
+           font-family: Georgia, 'Times New Roman', Times, serif;
+           padding: 10px;
+           justify-content: center; 
+  }
+  .brand{
+           height: 45px;
+           border-bottom: 1px solid transparent;
+           background-color: lightslategrey;
+  }
+  .brand a {
+             transition: border-bottom 0.5s;
+             text-decoration: none;
+             color: black;
+             transition: color 0.5s;
+  }
+  .brand :hover{
+                 border-bottom: 1px solid black;
+  }
+  .brand :hover{
+                 color: silver;        
+  }
+  
+  .nav-wrapper{
+               display: flex;
+               justify-content: center;
+               font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+               padding: 20px;
+  }
+  .center{
+          display: flex;  
+          align-items: center;   
+  }
+  .nav-wrapper > .center > div{
+                                margin-left: 12px;
+                                font-size: medium;
+                                text-transform: uppercase;
+  }
+  .nav-link-wrapper{
+                     height: 20px;
+                     border-bottom: solid transparent;
+                     transition: border-bottom 0.5s;
+  }
+  .nav-link-wrapper a { 
+                        text-decoration: none;
+                        color: black;
+                        transition: color 0.5s;
+                        justify-content: center;
+  }          
+   .nav-link-wrapper :hover{
+                             border-bottom: 1px solid black;
+  }
+  .nav-link-wrapper :hover{
+                            color: silver;        
+  }
+  .nav-wrapper1{
+                 justify-content: right;
+  }
+  
+  
+  /* Dropdown Button*/
+  .dropdown{
+      position: relative; 
+      display: inline-block;        
+  }
+  .dropdown-content{
+                     display: none;
+                     position: absolute;
+                     background-color: white;
+                     min-width: 160px;
+                     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                     z-index: 1;
+  }
+  .dropdown-content a {
+                        color: lightslategray;
+                        padding: 12px 16px;
+                        text-decoration: none;
+                        display: block;
+                        transition: color 0.5s;
+  }
+  .dropdown-content a:hover {
+                              color: white;
+                              background-color: lightslategray;
+                            }
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown-content a:hover { border-bottom: hidden;}
+  
+  
+  /*Gallry (Main Body Styling)*/
+  .gallary{
+          background-image: url('img/mj.png');
+          background-size: 100% 100%;
+          background-repeat: no-repeat;
+          background-position: center;
+          margin-left: auto;
+          margin-right: auto;
+          overflow: hidden;
+  }        
+  
+  .gallary{
+    padding: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows:  1fr 1fr;
+    grid-gap: 120px;
+    align-items: center;
+    justify-items: center;  
+    font-family:Verdana, Tahoma, sans-serif; 
+    width: auto;
+    height: 700px;
+  }
+  
+  .gallary a{
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+  
+  }
+  .gallary a{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 245px;
+    height: 300px;
+    background: white;
+    box-shadow: 2px 2px 4px black;
+    border-radius: 30px;
+    font-size: 100%;
+    font-weight: 10;
+  }
+  .gallary a img{
+    width: 200px;
+    height: 200px;
+    padding-top: 10px;
+  }
+  .gallary a h4{
+    padding-top: 0px;
+    color: #121F50;
+    text-align: center;
+    justify-content: baseline;
+    padding-bottom: 5px;
+  }
+  .gallary a:hover {
+    cursor: pointer;
+    transition: ease-in-out 300ms;   
+    padding: 10px;
+  }
+  .gallary a img:hover {
+    cursor: pointer;
+    transition: ease-in-out 300ms;   
+    width: 210px;
+    height: 210px;
+  }
+  .gallary a h4:hover {
+    cursor: pointer;
+    transition: ease-in-out 300ms;   
+    text-decoration: underline;
+  }
+  
+/*Navigation Styles*/
+.hdbckgrnd{
+    background-color: lightslategrey;
+  }
+  .brand{
+           text-align: center;
+           text-transform: uppercase;
+           font-family: Georgia, 'Times New Roman', Times, serif;
+           padding: 10px;
+           justify-content: center; 
+  }
+  .brand{
+           height: 45px;
+           border-bottom: 1px solid transparent;
+           background-color: lightslategrey;
+  }
+  .brand a {
+             transition: border-bottom 0.5s;
+             text-decoration: none;
+             color: black;
+             transition: color 0.5s;
+  }
+  .brand :hover{
+                 border-bottom: 1px solid black;
+  }
+  .brand :hover{
+                 color: silver;        
+  }
+  
+  .nav-wrapper{
+               display: flex;
+               justify-content: center;
+               font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+               padding: 20px;
+  }
+  .center{
+          display: flex;  
+          align-items: center;   
+  }
+  .nav-wrapper > .center > div{
+                                margin-left: 12px;
+                                font-size: medium;
+                                text-transform: uppercase;
+  }
+  .nav-link-wrapper{
+                     height: 20px;
+                     border-bottom: solid transparent;
+                     transition: border-bottom 0.5s;
+  }
+  .nav-link-wrapper a { 
+                        text-decoration: none;
+                        color: black;
+                        transition: color 0.5s;
+                        justify-content: center;
+  }          
+   .nav-link-wrapper :hover{
+                             border-bottom: 1px solid black;
+  }
+  .nav-link-wrapper :hover{
+                            color: silver;        
+  }
+  .nav-wrapper1{
+                 justify-content: right;
+  }
+  
+  
+  /* Dropdown Button*/
+  .dropdown{
+      position: relative; 
+      display: inline-block;        
+  }
+  .dropdown-content{
+                     display: none;
+                     position: absolute;
+                     background-color: white;
+                     min-width: 160px;
+                     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                     z-index: 1;
+  }
+  .dropdown-content a {
+                        color: lightslategray;
+                        padding: 12px 16px;
+                        text-decoration: none;
+                        display: block;
+                        transition: color 0.5s;
+  }
+  .dropdown-content a:hover {
+                              color: white;
+                              background-color: lightslategray;
+                            }
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown-content a:hover { border-bottom: hidden;}
+  
+  
+  /*Gallry (Main Body Styling)*/
+  .gallary{
+          background-image: url('img/mj.png');
+          background-size: 100% 100%;
+          background-repeat: no-repeat;
+          background-position: center;
+          margin-left: auto;
+          margin-right: auto;
+          overflow: hidden;
+  }        
+  
+  .gallary{
+    padding: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows:  1fr;
+    grid-gap: 120px;
+    align-items: center;
+    justify-items: center;  
+    font-family:Verdana, Tahoma, sans-serif; 
+    width: auto;
+    height: 700px;
+  }
+  
+  .gallary a{
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+  
+  }
+  .gallary a{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 400px;
+    background: white;
+    box-shadow: 2px 2px 4px black;
+    border-radius: 30px;
+    font-size: 100%;
+    font-weight: 10;
+  }
+  .gallary a img{
+    width: 250px;
+    height: 250px;
+    padding-top: 10px;
+  }
+  .gallary a h4{
+    padding-top: 0px;
+    color: #121F50;
+    text-align: center;
+    justify-content: baseline;
+    padding-bottom: 5px;
+  }
+  .gallary a:hover {
+    cursor: pointer;
+    transition: ease-in-out 300ms;   
+    padding: 15px;
+  }
+  .gallary a img:hover {
+    cursor: pointer;
+    transition: ease-in-out 300ms;   
+    width: 260px;
+    height: 260px;
+  }
+  .gallary a h4:hover {
+    cursor: pointer;
+    transition: ease-in-out 300ms;   
+    text-decoration: underline;
+  }
+  
+    
